@@ -26,13 +26,13 @@ TARGET_SUPPORTS_ALERT_SLIDER := false
 
 # Maintainer Flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.aosp.maintainer=PSKMaxi
+    ro.pixelexperience.maintainer=PSKMaxi
 
 # Unofficial
-AOSP_MAINTAINER := PSKMaxi
-AOSP_BUILD_TYPE := UNOFFICIAL
+PIXELEXPERIENCE_MAINTAINER := PSKMaxi
+PIXELEXPERIENCE_BUILD_TYPE := UNOFFICIAL
 BUILD_USERNAME := PSKMaxi
-BUILD_HOSTNAME := Aosp
+BUILD_HOSTNAME := PixelExperience
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_beryllium
