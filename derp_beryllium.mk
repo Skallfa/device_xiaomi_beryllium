@@ -6,8 +6,8 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common pex stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common derp stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
@@ -25,18 +25,18 @@ TARGET_BUILD_GRAPHENEOS_CAMERA := false
 TARGET_ENABLE_BLUR := false
 TARGET_SUPPORTS_ALERT_SLIDER := false
 
-# Maintainer Flag
+# Maintainer flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.pex.maintainer=PSKMaxi
+    ro.derp.maintainer=Max
 
-# Unofficial
-PEX_MAINTAINER := PSKMaxi
-PEX_BUILD_TYPE := UNOFFICIAL
-BUILD_USERNAME := PSKMaxi
-BUILD_HOSTNAME := PEX
+# Build details
+DERP_MAINTAINER := Max
+DERP_BUILD_TYPE := UNOFFICIAL
+BUILD_USERNAME := Max
+BUILD_HOSTNAME := Derpfest
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_beryllium
+PRODUCT_NAME := derp_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
