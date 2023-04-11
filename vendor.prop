@@ -5,7 +5,7 @@ vendor.display.enable_default_color_mode=1
 vendor.hw.fm.init=0
 
 # Bluetooth
-bluetooth.device.default_name=Xiaomi Poco F1
+bluetooth.device.default_name=Xiaomi Pocophone F1
 
 # USB
-vendor.usb.product_string=Xiaomi Poco F1
+vendor.usb.product_string=Xiaomi Pocophone F1
