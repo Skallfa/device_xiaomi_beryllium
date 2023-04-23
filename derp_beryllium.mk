@@ -6,7 +6,7 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common derp stuff.
+# Inherit some common derpfest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -27,11 +27,11 @@ TARGET_SUPPORTS_ALERT_SLIDER := false
 
 # Maintainer flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.derp.maintainer=Max
+    ro.derpfest.maintainer=Max
 
 # Build details
-DERP_MAINTAINER := Max
-DERP_BUILD_TYPE := UNOFFICIAL
+DERPFEST_MAINTAINER := Max
+DERPFEST_BUILD_TYPE := UNOFFICIAL
 BUILD_USERNAME := Max
 BUILD_HOSTNAME := Derpfest
 
