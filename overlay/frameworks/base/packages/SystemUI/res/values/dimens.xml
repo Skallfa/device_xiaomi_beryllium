@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">10dp</dimen>
+    <dimen name="status_bar_padding_start">12dp</dimen>
 
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">0dp</dimen>
@@ -28,7 +28,7 @@
     <dimen name="keyguard_carrier_text_margin">20dp</dimen>
  
     <!-- Margin on the right side of the system icon group on Keyguard. -->
-    <dimen name="system_icons_keyguard_padding_end">8dp</dimen>
+    <dimen name="system_icons_keyguard_padding_end">12dp</dimen>
     
     <!-- Padding before battery level text in status bar, QS, and Keyguard -->
     <dimen name="battery_level_padding_start">3dp</dimen>
@@ -49,5 +49,5 @@
     <dimen name="status_bar_clock_size">13sp</dimen>
 
     <!-- Skeleton string format for displaying the date when an alarm is set. -->
-    <string name="abbrev_wday_month_day_no_year_alarm">ddMMyy</string>
+    <string name="abbrev_wday_month_day_no_year_alarm">ddMMyyyy</string>
 </resources>
