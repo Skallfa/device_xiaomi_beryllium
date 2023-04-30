@@ -5,7 +5,7 @@ rm -rf kernel/xiaomi && git clone https://github.com/Krtonia/kawaii_kernel_sdm84
 rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_vendor.git -b main vendor/xiaomi --depth=1
 
 # Clone Device Trees
-git clone https://github.com/PSKMaxi/device_xiaomi_beryllium_sdm845-common.git -b derp device/xiaomi/sdm845-common
+git clone https://github.com/Skallfa/device_xiaomi_beryllium_sdm845-common.git -b derp device/xiaomi/sdm845-common
 
 
 # Clone Clang
