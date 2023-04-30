@@ -107,7 +107,11 @@ PRODUCT_PACKAGES += \
     
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)    
+    $(LOCAL_PATH)
+    
+# Shims
+PRODUCT_PACKAGES += \
+    libpiex_shim_beryllium
     
 # WiFi
 PRODUCT_PACKAGES += \
