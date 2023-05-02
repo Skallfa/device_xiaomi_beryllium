@@ -28,7 +28,7 @@
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">false</bool>
      
-    <!-- Whether device supports in-display fingerprint -->
+    <!-- Whether the device supports on-display fingerprint -->
      <bool name="config_supportsUdfps">false</bool>
      
     <!-- Pocket Lock -->
