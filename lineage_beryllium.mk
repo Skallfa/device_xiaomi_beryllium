@@ -6,8 +6,8 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common derpfest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common rising stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
@@ -26,19 +26,24 @@ TARGET_ENABLE_BLUR := false
 TARGET_HAS_ALERT_SLIDER := false
 TARGET_SUPPORTS_SMART_PIXELS := false
 TARGET_SUPPORTS_SCREEN_OFF_UDFPS := false
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_EXCLUDES_AUDIOFX := true
+RISING_PACKAGE_TYPE := CORE
+RISING_CHIPSET := SDM845 4G
+TARGET_USE_GOOGLE_TELEPHONY := true
 
 # Maintainer flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.derpfest.maintainer=Max
+    ro.rising.maintainer=Max
 
 # Build details
-DERPFEST_MAINTAINER := Max
-DERPFEST_BUILD_TYPE := UNOFFICIAL
+RISING_MAINTAINER := Max
+RISING_BUILD_TYPE := UNOFFICIAL
 BUILD_USERNAME := Max
-BUILD_HOSTNAME := Derpfest
+BUILD_HOSTNAME := Rising
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_beryllium
+PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
