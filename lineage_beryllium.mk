@@ -8,7 +8,7 @@ $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common rising stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+SUSHI_BOOTANIMATION := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := false
@@ -30,7 +30,9 @@ TARGET_USE_PIXEL_FINGERPRINT := true
 TARGET_EXCLUDES_AUDIOFX := true
 RISING_PACKAGE_TYPE := CORE
 RISING_CHIPSET := SDM845 4G
-TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_USE_GOOGLE_TELEPHONY := false
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
 
 # Maintainer flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
