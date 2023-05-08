@@ -704,12 +704,6 @@
     <dimen name="status_bar_height_portrait">86.0px</dimen>
     <dimen name="status_bar_height_landscape">86.0px</dimen>
     <dimen name="rounded_corner_radius">40dp</dimen>
-    
-    <!-- Default value for proximity check on screen wake
-     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">250</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
     <!-- Whether device has a physical display cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
@@ -743,9 +737,6 @@
 
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
-    
-    <!-- Device light capabilities -->
-    <integer name="config_deviceLightCapabilities">232</integer>
      
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
