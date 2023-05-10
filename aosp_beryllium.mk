@@ -6,9 +6,9 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common rising stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-SUSHI_BOOTANIMATION := 1080
+# Inherit some common pex stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := false
@@ -26,27 +26,19 @@ TARGET_ENABLE_BLUR := false
 TARGET_HAS_ALERT_SLIDER := false
 TARGET_SUPPORTS_SMART_PIXELS := false
 TARGET_SUPPORTS_SCREEN_OFF_UDFPS := false
-TARGET_USE_PIXEL_FINGERPRINT := true
-TARGET_EXCLUDES_AUDIOFX := true
-RISING_PACKAGE_TYPE := CORE
-RISING_CHIPSET := SDM845 4G
-TARGET_USE_GOOGLE_TELEPHONY := false
-TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := true
-WITH_GMS := true
 
 # Maintainer flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.rising.maintainer=Max
+    ro.pex.maintainer=Max
 
 # Build details
-RISING_MAINTAINER := Max
-RISING_BUILD_TYPE := UNOFFICIAL
+PEX_MAINTAINER := Max
+PEX_BUILD_TYPE := UNOFFICIAL
 BUILD_USERNAME := Max
-BUILD_HOSTNAME := Rising
+BUILD_HOSTNAME := PEx
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_beryllium
+PRODUCT_NAME := aosp_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
