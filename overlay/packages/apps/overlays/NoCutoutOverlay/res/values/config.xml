@@ -27,8 +27,7 @@
 
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">89.0px</dimen>
-    <dimen name="status_bar_height_landscape">89.0px</dimen>
-    <dimen name="rounded_corner_radius">40dp</dimen>
+    
   
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">12dp</dimen>
