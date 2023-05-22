@@ -1,5 +1,5 @@
 # Clone Kernel
-rm -rf kernel/xiaomi && git clone https://github.com/Krtonia/kawaii_kernel_sdm845.git -b stable kernel/xiaomi/sdm845 --depth=1
+rm -rf kernel/xiaomi && git clone https://github.com/Krtonia/kawaii_kernel_sdm845.git -b 13 kernel/xiaomi/sdm845 --depth=1
 
 # Clone Vendor
 rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_vendor.git -b main vendor/xiaomi --depth=1
