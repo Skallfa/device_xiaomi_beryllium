@@ -748,6 +748,12 @@
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
      
+     <!-- Adjust the icon padding in status bar for rounded corners --> 
+    <dimen name="rounded_corner_content_padding">2dp</dimen>
+
+    <!-- Statusbar Icon Size -->
+    <dimen name="status_bar_icon_size">16dp</dimen>
+     
     <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
      
