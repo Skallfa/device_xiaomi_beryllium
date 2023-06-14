@@ -30,7 +30,8 @@
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">8dp</dimen>
     
-    
+    <!-- Statusbar Notification Icon Size -->
+    <dimen name="status_bar_icon_drawing_size">13dp</dimen>
 
     <!-- The starting padding for the clock in the status bar. -->
     <dimen name="status_bar_clock_starting_padding">2.5dp</dimen>
