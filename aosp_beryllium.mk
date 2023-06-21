@@ -37,7 +37,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PEX_MAINTAINER := Max
 PEX_BUILD_TYPE := UNOFFICIAL
 BUILD_USERNAME := Max
-BUILD_HOSTNAME := PEx
+BUILD_HOSTNAME := PEX
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_beryllium
