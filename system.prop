@@ -9,7 +9,6 @@ persist.vendor.camera.perfcapture=1
 ro.recovery.ui.margin_height=87
 
 # Graphics
-ro.surface_flinger.protected_contents=true
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.use_color_management=true
