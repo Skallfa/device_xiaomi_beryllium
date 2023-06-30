@@ -9,7 +9,7 @@ git clone https://github.com/Skallfa/device_xiaomi_sdm845-common.git -b pex devi
 
 
 # Clone Clang
-# rm -rf prebuilts/clang/host/linux-x86/trb_clang && git clone https://github.com/kdrag0n/proton-clang --depth=1 prebuilts/clang/host/linux-x86/trb_clang
+# rm -rf prebuilts/clang/host/linux-x86/clang-proton && git clone https://github.com/kdrag0n/proton-clang.git -b master --depth=1 prebuilts/clang/host/linux-x86/clang-proton
 
 # Clone Hals
 rm -rf hardware/qcom-caf/sdm845/display && git clone https://github.com/ArrowOS/android_hardware_qcom_display -b arrow-13.1-caf-sdm845 hardware/qcom-caf/sdm845/display
