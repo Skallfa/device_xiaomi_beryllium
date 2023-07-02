@@ -7,6 +7,8 @@ rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_ve
 # Clone Device Trees
 git clone https://github.com/Skallfa/device_xiaomi_sdm845-common.git -b pex device/xiaomi/sdm845-common
 
+# miui cam
+git clone https://github.com/resist15/vendor_miuicamera.git -b arrow-13.1 vendor/miuicamera
 
 # Clone Clang
 # rm -rf prebuilts/clang/host/linux-x86/clang-proton && git clone https://github.com/kdrag0n/proton-clang.git -b master --depth=1 prebuilts/clang/host/linux-x86/clang-proton
