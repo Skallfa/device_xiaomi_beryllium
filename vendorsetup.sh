@@ -5,7 +5,7 @@ rm -rf kernel/xiaomi && git clone https://github.com/Charsi-Tejas/kernel_xiaomi_
 rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_vendor.git -b main vendor/xiaomi --depth=1
 
 # Clone Device Trees
-git clone https://github.com/Skallfa/device_xiaomi_sdm845-common.git -b pos device/xiaomi/sdm845-common
+git clone https://github.com/Skallfa/device_xiaomi_sdm845-common.git -b pex device/xiaomi/sdm845-common
 
 # miui cam
 git clone https://github.com/resist15/vendor_miuicamera.git -b arrow-13.1 vendor/miuicamera
