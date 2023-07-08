@@ -1,5 +1,5 @@
 # Clone Kernel
-rm -rf kernel/xiaomi && git clone https://github.com/Charsi-Tejas/kernel_xiaomi_sdm845.git -b thirteen kernel/xiaomi/sdm845 --depth=1
+rm -rf kernel/xiaomi && git clone https://github.com/Skallfa/kernel_xiaomi_sdm845-common.git -b 13 kernel/xiaomi/sdm845-common --depth=1
 
 # Clone Vendor
 rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_vendor.git -b main vendor/xiaomi --depth=1
@@ -18,3 +18,6 @@ rm -rf hardware/qcom-caf/sdm845/display && git clone https://github.com/ArrowOS/
 rm -rf hardware/qcom-caf/sdm845/audio && git clone https://github.com/ArrowOS/android_hardware_qcom_audio -b arrow-13.1-caf-sdm845 hardware/qcom-caf/sdm845/audio
 rm -rf hardware/qcom-caf/sdm845/media && git clone https://github.com/ArrowOS/android_hardware_qcom_media -b arrow-13.1-caf-sdm845 hardware/qcom-caf/sdm845/media
 rm -rf external/tinyxml && git clone https://github.com/ArrowOS/android_external_tinyxml -b arrow-13.1 external/tinyxml
+
+# Clone Kernel SU
+cd kernel/xiaomi/sdm845-common/ && curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash - && cd ../../..
