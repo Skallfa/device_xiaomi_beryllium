@@ -6,7 +6,7 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common pex stuff.
+# Inherit some common peplus stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -30,13 +30,13 @@ TARGET_DISABLE_EPPE := true
 
 # Maintainer flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.pex.maintainer=Max
+    ro.peplus.maintainer=Max
 
 # Build details
-PEX_MAINTAINER := Max
-PEX_BUILD_TYPE := Unofficial
+PEPLUS_MAINTAINER := Max
+PEPLUS_BUILD_TYPE := Unofficial
 BUILD_USERNAME := Max
-BUILD_HOSTNAME := PEX
+BUILD_HOSTNAME := PEPlus
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_beryllium
