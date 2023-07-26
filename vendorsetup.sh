@@ -1,5 +1,5 @@
 # Clone Kernel
-rm -rf kernel/xiaomi && git clone https://github.com/Skallfa/kernel_xiaomi_sdm845-common.git -b 13 kernel/xiaomi/sdm845-common --depth=1
+rm -rf kernel/xiaomi && git clone https://github.com/PSKMaxi/kernel_xiaomi_sdm845-common.git -b dev-cputuning kernel/xiaomi/sdm845-common --depth=1
 
 # Clone Vendor
 rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_vendor.git -b main vendor/xiaomi --depth=1
