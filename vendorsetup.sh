@@ -15,7 +15,7 @@ rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_ve
 git clone https://github.com/Skallfa/device_xiaomi_sdm845-common.git -b peplus device/xiaomi/sdm845-common
 
 # clone miui cam
-git clone https://github.com/resist15/vendor_miuicamera.git -b arrow-13.1 vendor/miuicamera --depth=1
+# git clone https://github.com/resist15/vendor_miuicamera.git -b arrow-13.1 vendor/miuicamera --depth=1
 
 # Clone Clang
 # git clone https://gitlab.com/jjpprrrr/prelude-clang.git -b master clang-prelude --depth=1 && mv clang-prelude prebuilts/clang/host/linux-x86/
