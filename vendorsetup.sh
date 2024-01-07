@@ -6,7 +6,7 @@ rm -rf vendor/aosp && git clone https://github.com/PSKMaxi/va.git -b thirteen-pl
 rm -rf vendor/pixel-framework && git clone https://github.com/PSKMaxi/vpf.git -b thirteen-plus vendor/pixel-framework --depth=1
 
 # Clone Kernel
-rm -rf kernel/xiaomi && git clone https://github.com/PSKMaxi/kernel_xiaomi_sdm845-common.git -b dev-cputuning kernel/xiaomi/sdm845-common --depth=1
+rm -rf kernel/xiaomi && git clone https://github.com/Krtonia/Radioactive_kernel.git -b 14 kernel/xiaomi/sdm845-common --depth=1
 
 # Clone Vendor
 rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_vendor.git -b main vendor/xiaomi --depth=1
