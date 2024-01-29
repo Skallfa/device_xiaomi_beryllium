@@ -6,9 +6,10 @@ rm -rf vendor/aosp && git clone https://github.com/Skallfa/va.git -b thirteen-pl
 rm -rf vendor/pixel-framework && git clone https://github.com/PSKMaxi/vpf.git -b thirteen-plus vendor/pixel-framework --depth=1
 rm -rf device/custom/sepolicy && git clone https://github.com/Skallfa/device_custom_sepolicy.git -b thirteen device/custom/sepolicy
 rm -rf vendor/custom-preference && git clone https://github.com/Skallfa/vendor_custom-preference.git -b thirteen vendor/custom-preference
+rm -rf build/soong && git clone https://github.com/Skallfa/build_soong.git -b thirteen build/soong
 
 # Clone Kernel
-rm -rf kernel/xiaomi && git clone https://github.com/Krtonia/Radioactive_kernel.git -b 14 kernel/xiaomi/sdm845-common --depth=1
+rm -rf kernel/xiaomi && git clone  -b 14 kernel/xiaomi/sdm845-common --depth=1
 
 # Clone Vendor
 rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_vendor.git -b main vendor/xiaomi --depth=1
