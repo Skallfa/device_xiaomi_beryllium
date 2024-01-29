@@ -20,6 +20,9 @@ git clone https://github.com/Skallfa/device_xiaomi_sdm845-common.git -b peplus d
 # clone miui cam
 # git clone https://github.com/resist15/vendor_miuicamera.git -b arrow-13.1 vendor/miuicamera --depth=1
 
+# clone hardware
+rm -rf hardware/xiaomi && git clone https://github.com/ArrowOS-Devices/android_hardware_xiaomi.git -b arrow-13.1 hardware/xiaomi
+
 # Clone Clang
 git clone https://gitlab.com/jjpprrrr/prelude-clang.git -b master clang-prelude --depth=1 && mv clang-prelude prebuilts/clang/host/linux-x86/
 
