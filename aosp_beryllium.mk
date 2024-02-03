@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from beryllium device.
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common peplus stuff.
@@ -30,15 +31,9 @@ TARGET_DISABLE_EPPE := true
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 
-# Maintainer flag
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.peplus.maintainer=Max
-
 # Build details
 PEPLUS_MAINTAINER := Max
 PEPLUS_BUILD_TYPE := Unofficial
-BUILD_USERNAME := Max
-BUILD_HOSTNAME := PEPlus
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_beryllium
