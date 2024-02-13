@@ -12,7 +12,7 @@ rm -rf build/soong && git clone https://github.com/Skallfa/build_soong.git -b th
 rm -rf kernel/xiaomi && git clone https://github.com/PSKMaxi/kernel_xiaomi_sdm845-common.git -b main kernel/xiaomi/sdm845-common --depth=1
 
 # Clone Vendor
-rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/xiaomi_beryllium_vendor.git -b main vendor/xiaomi --depth=1
+rm -rf vendor/xiaomi && git clone https://github.com/PSKMaxi/vendor_xiaomi_beryllium.git -b main vendor/xiaomi --depth=1
 
 # Clone Device Common Tree
 git clone https://github.com/Skallfa/device_xiaomi_sdm845-common.git -b peplus device/xiaomi/sdm845-common
