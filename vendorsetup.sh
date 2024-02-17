@@ -1,6 +1,6 @@
 # clone custom additions
-rm -rf frameworks/base && git clone https://github.com/Skallfa/fwb.git -b thirteen-plus frameworks/base --depth=1
-rm -rf packages/apps/Settings && git clone https://github.com/Skallfa/pas.git -b thirteen-plus packages/apps/Settings --depth=1
+rm -rf frameworks/base && git clone https://github.com/Skallfa/fwb.git -b wip frameworks/base --depth=1
+rm -rf packages/apps/Settings && git clone https://github.com/Skallfa/pas.git -b wip packages/apps/Settings --depth=1
 rm -rf frameworks/av && git clone https://github.com/PSKMaxi/fwa.git -b thirteen frameworks/av --depth=1
 rm -rf vendor/aosp && git clone https://github.com/Skallfa/va.git -b thirteen-plus vendor/aosp --depth=1
 rm -rf vendor/pixel-framework && git clone https://github.com/PSKMaxi/vpf.git -b thirteen-plus vendor/pixel-framework --depth=1
