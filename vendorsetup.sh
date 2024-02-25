@@ -28,10 +28,10 @@ rm -rf hardware/xiaomi && git clone https://github.com/ArrowOS-Devices/android_h
 # git clone https://gitlab.com/jjpprrrr/prelude-clang.git -b master clang-prelude --depth=1 && mv clang-prelude prebuilts/clang/host/linux-x86/
 
 # Clone Hals
-rm -rf hardware/qcom-caf/sdm845/display && git clone https://github.com/ArrowOS/android_hardware_qcom_display -b arrow-13.1-caf-sdm845 hardware/qcom-caf/sdm845/display
-rm -rf hardware/qcom-caf/sdm845/audio && git clone https://github.com/ArrowOS/android_hardware_qcom_audio -b arrow-13.1-caf-sdm845 hardware/qcom-caf/sdm845/audio
-rm -rf hardware/qcom-caf/sdm845/media && git clone https://github.com/ArrowOS/android_hardware_qcom_media -b arrow-13.1-caf-sdm845 hardware/qcom-caf/sdm845/media
-rm -rf external/tinyxml && git clone https://github.com/ArrowOS/android_external_tinyxml -b arrow-13.1 external/tinyxml
+rm -rf hardware/qcom-caf/sdm845/display && git clone https://github.com/LineageOS/android_hardware_qcom_display.git -b lineage-21.0-caf-sdm845 hardware/qcom-caf/sdm845/display
+rm -rf hardware/qcom-caf/sdm845/audio && git clone https://github.com/LineageOS/android_hardware_qcom_audio.git -b lineage-21.0-caf-sdm845 hardware/qcom-caf/sdm845/audio
+rm -rf hardware/qcom-caf/sdm845/media && git clone https://github.com/LineageOS/android_hardware_qcom_media.git -b lineage-21.0-caf-sdm845 hardware/qcom-caf/sdm845/media
+rm -rf external/tinyxml && git clone https://github.com/ArrowOS/android_external_tinyxml.git -b arrow-13.1 external/tinyxml
 
 # Clone Kernel SU
 cd kernel/xiaomi/sdm845-common/ && curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash - && cd ../../..
