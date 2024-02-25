@@ -7,8 +7,8 @@
 # Inherit from beryllium device.
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common peplus stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common afterlife project stuff.
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
@@ -32,13 +32,15 @@ TARGET_SUPPORTS_SCREEN_OFF_UDFPS := false
 TARGET_DISABLE_EPPE := true
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
+AFTERLIFE_GAPPS := true
+AFTERLIFE_CORE := true
 
 # Build details
-PEPLUS_MAINTAINER := Max
-PEPLUS_BUILD_TYPE := Unofficial
+AFTERLIFE_MAINTAINER := Max
+AFTERLIFE_BUILD_TYPE := Unofficial
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_beryllium
+PRODUCT_NAME := afterlife_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Pocophone F1
