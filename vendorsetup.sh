@@ -11,7 +11,7 @@ git clone https://github.com/Skallfa/device_xiaomi_sdm845-common.git -b alp devi
 # git clone https://github.com/resist15/vendor_miuicamera.git -b arrow-13.1 vendor/miuicamera --depth=1
 
 # clone hardware
-rm -rf hardware/xiaomi && git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20 hardware/xiaomi
+rm -rf hardware/xiaomi && git clone https://github.com/ArrowOS-Devices/android_hardware_xiaomi.git -b arrow-13.1 hardware/xiaomi
 
 # clone settings resources
 rm -rf packages/resources/devicesettings && git clone https://github.com/LineageOS/android_packages_resources_devicesettings.git -b lineage-20.0 packages/resources/devicesettings
